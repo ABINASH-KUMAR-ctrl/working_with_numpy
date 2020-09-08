@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([1,5,-9,-6,15,63])
+print("array=",a)
+print("sum=",a.sum())
+print("max=",a.max())
+print("min=",a.min())
+print("mean=",a.mean())
+print("std=",a.std())
+print("index_of_max=",a.argmax())
+print("index_of_min=",a.argmin())
